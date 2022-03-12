@@ -9,12 +9,14 @@
   "description": "Creating a blog with NextJS",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^4.2.7"
+  },
   "scripts": {
     "dev": "next dev",
-      "build": "next build",
-      "export": "next export",
-      "start": "next start"
+    "build": "next build",
+    "export": "next export",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
