@@ -1,5 +1,29 @@
 {
   "dependencies": {
-    "create-next-app": "^12.1.0"
-  }
+    "create-next-app": "^12.1.0",
+    "next": "^12.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "name": "jamstackblog",
+  "description": "Creating a blog with NextJS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next dev",
+      "build": "next build",
+      "export": "next export",
+      "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dillonmerriam/jamstackblog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dillonmerriam/jamstackblog/issues"
+  },
+  "homepage": "https://github.com/dillonmerriam/jamstackblog#readme"
 }
